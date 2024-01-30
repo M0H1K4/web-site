@@ -4,7 +4,7 @@ import './whatREACTOR.css'
 function WhatREACTOR() {
   return (
     <div>
-      
+      WhatREACTOR
     </div>
   )
 }

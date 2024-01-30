@@ -1,11 +1,23 @@
 import React from 'react'
 
-import { Article, Brand, Cta} from './components'
+import {Footer, Blog, Possibility, Features, Header, WhatREACTOR} from './containers'
+import {Cta, Brand, Navbar} from './components'
+import './App.css'
 
 function App() {
   return (
-    <div>
-      <h1>New Web-site</h1>
+    <div className='App'>
+      <div className='gradient__bg'>
+        <Navbar/>
+        <Header/>
+      </div>
+      <Brand/>
+      <WhatREACTOR/>
+      <Features/>
+      <Possibility/>
+      <Cta/>
+    <Blog/>
+    <Footer/>
     </div>
   )
 }

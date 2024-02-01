@@ -1,17 +1,21 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./loginsignup.css";
 import { FaUser, FaEnvelope, FaPhone, FaLock } from "react-icons/fa";
 
 const LoginSignup = () => {
-  const setBodyBackgroundImage = () => {
-    document.body.style.backgroundImage = 'url("/image.jpg")'; // Replace with the URL of your image
-    document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundPosition = "center";
-    document.body.style.backgroundRepeat = "no-repeat";
-  };
-  useEffect(() => {
-    setBodyBackgroundImage();
-  }, []);
+  // const [showBackgroundImage, setShowBackgroundImage] = useState(true);
+
+  // useEffect(() => {
+  //   // Optionally, perform any logic before deciding to show the background image
+
+  //   // Toggle the CSS class on the body element
+  //   document.body.classList.toggle('background-image', showBackgroundImage);
+
+  //   // Optionally, you can clear the class when the component is unmounted
+  //   return () => {
+  //     document.body.classList.remove('background-image');
+  //   };
+  // }, [showBackgroundImage]);
 
   return (
     <div className="wrapper">

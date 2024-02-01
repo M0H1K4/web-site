@@ -19,52 +19,52 @@ const LoginSignup = () => {
 
   useEffect(() => {
     // Set background color for the entire body
-    document.body.style.backgroundColor = '#0F172A'; // Replace with the desired color
+    document.body.style.backgroundColor = "#0F172A"; // Replace with the desired color
 
     // Optionally, clear the background color when the component is unmounted
     return () => {
-      document.body.style.backgroundColor = '';
+      document.body.style.backgroundColor = "";
     };
   }, []);
-
 
   return (
     <div className="wrapper">
       <form action="">
-        <h1>Registration</h1>
+        <h1>Sign Up</h1>
         <div className="input-box">
           <div className="input-field">
             <input type="text" placeholder="Full Name" required />
             <FaUser size={20} className="icon" />
           </div>
+
           <div className="input-field">
             <input type="text" placeholder="Username" required />
             <FaUser size={20} className="icon" />
           </div>
+
           <div className="input-field">
             <input type="email" placeholder="Email" required />
             <FaEnvelope size={20} className="icon" />
           </div>
+
           <div className="input-field">
             <input type="number" placeholder="Phone Number" required />
             <FaPhone size={20} className="icon" />
           </div>
+
           <div className="input-field">
             <input type="password" placeholder="Password" required />
             <FaLock size={20} className="icon" />
           </div>
+
           <div className="input-field">
             <input type="password" placeholder="Confirm Password" required />
             <FaLock size={20} className="icon" />
           </div>
         </div>
-        <label>
-          <input type="checkbox" />I herebly declare that the above information
-          provided is true and correct.
-        </label>
 
         <button type="submit" className="btn">
-          Register
+          Sign Up
         </button>
       </form>
     </div>

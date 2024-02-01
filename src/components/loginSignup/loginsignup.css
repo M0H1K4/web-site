@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
 } */
 
+
 .wrapper {
   color: white;
   width: 750px;
@@ -77,6 +78,7 @@
   color: #333;
   font-weight: 600;
 }
+
 
 @media screen and (max-width: 576px) {
   .wrapper{

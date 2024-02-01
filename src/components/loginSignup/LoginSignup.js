@@ -17,6 +17,17 @@ const LoginSignup = () => {
   //   };
   // }, [showBackgroundImage]);
 
+  useEffect(() => {
+    // Set background color for the entire body
+    document.body.style.backgroundColor = '#0F172A'; // Replace with the desired color
+
+    // Optionally, clear the background color when the component is unmounted
+    return () => {
+      document.body.style.backgroundColor = '';
+    };
+  }, []);
+
+
   return (
     <div className="wrapper">
       <form action="">

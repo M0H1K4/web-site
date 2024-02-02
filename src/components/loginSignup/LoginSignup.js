@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import LoginPage from './loginPage.js'
 import "./loginsignup.css";
 import { FaUser, FaEnvelope, FaPhone, FaLock } from "react-icons/fa";
 
@@ -62,7 +63,10 @@ const LoginSignup = () => {
             <FaLock size={20} className="icon" />
           </div>
         </div>
-
+        <div className="linkToSignUpDiv">
+              <h3>Already have an accaunt?</h3>
+              <a href="/SignUp">Log In</a>
+          </div>
         <button type="submit" className="btn">
           Sign Up
         </button>

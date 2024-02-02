@@ -35,11 +35,13 @@ div {
   letter-spacing: 4px;
 }
 .wrapper2 .btn:hover {
-  background: #6adc70;
+  background: #0a8181;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03f40f, 0 0 25px #03f40f, 0 0 50px #03f40f,
-    0 0 100px #03f40f;
+  box-shadow: 0 0 5px #c3c8c9,
+              0 0 25px #d6d9da,
+              0 0 50px #e3e6e6,
+              0 0 100px #d2d6d6;
 }
 
 .wrapper2 .input-box .input-field input {

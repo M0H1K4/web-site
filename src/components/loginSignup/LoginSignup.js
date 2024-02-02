@@ -21,7 +21,7 @@ const LoginSignup = () => {
 
   useEffect(() => {
     // Set background color for the entire body
-    document.body.style.backgroundColor = "#0F172A"; // Replace with the desired color
+    document.body.style.backgroundColor = ""; // Replace with the desired color
 
     // Optionally, clear the background color when the component is unmounted
     return () => {
@@ -66,7 +66,7 @@ const LoginSignup = () => {
         </div>
         <div className="linkToSignUpDiv">
               <h3>Already have an accaunt?</h3>
-              <Link to="/">Log In</Link>
+              <Link  className="link" to="/">Log In</Link>
           </div>
         <button type="submit" className="btn">
           Sign Up

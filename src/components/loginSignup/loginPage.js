@@ -26,7 +26,7 @@ function loginPage() {
             </div>
             <div className="linkToSignUpDiv">
               <h3>Don't have an accaunt?</h3>
-              <Link to="/SignUp">Sign Up</Link>
+              <Link className="link2" to="/SignUp">Sign Up</Link>
             </div>
             <button type="submit" className="btn">
               Log In

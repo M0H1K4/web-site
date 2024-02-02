@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import LoginPage from './loginPage.js'
 import "./loginsignup.css";
 import { FaUser, FaEnvelope, FaPhone, FaLock } from "react-icons/fa";
+import { HashRouter as Router, Route,Routes, Link } from "react-router-dom";
 
 const LoginSignup = () => {
   // const [showBackgroundImage, setShowBackgroundImage] = useState(true);
@@ -65,7 +66,7 @@ const LoginSignup = () => {
         </div>
         <div className="linkToSignUpDiv">
               <h3>Already have an accaunt?</h3>
-              <a href="/SignUp">Log In</a>
+              <Link to="/">Log In</Link>
           </div>
         <button type="submit" className="btn">
           Sign Up

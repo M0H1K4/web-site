@@ -9,11 +9,9 @@
 body {
   background: rgb(0,0,0);
   background: linear-gradient(5deg, rgba(0,0,0,1) 0%, rgba(29,175,195,1) 35%);
+  /* background-repeat: no-repeat; */
   /* background-image: url('./components/loginSignup/image.jpg'); */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  min-height: 100vh; 
 }
 a {
   color: unset;

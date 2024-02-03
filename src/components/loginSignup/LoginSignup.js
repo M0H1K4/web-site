@@ -20,11 +20,15 @@ const LoginSignup = () => {
   // }, [showBackgroundImage]);
 
   useEffect(() => {
+    // Set linear gradient for the entire body
+    document.body.style.background = "linear-gradient(5deg, rgba(0,0,0,1) 0%, rgba(29,175,195,1) 35%)";
+  
     // Set background color for the entire body
-    document.body.style.backgroundColor = ""; // Replace with the desired color
-
-    // Optionally, clear the background color when the component is unmounted
+    document.body.style.backgroundColor = "#1dafc3";
+  
+    // Optionally, clear the styles when the component is unmounted
     return () => {
+      document.body.style.background = "";
       document.body.style.backgroundColor = "";
     };
   }, []);
@@ -68,7 +72,8 @@ const LoginSignup = () => {
               <h3>Already have an accaunt?</h3>
               <Link  className="link" to="/">Log In</Link>
           </div>
-        <button type="submit" className="btn">
+         
+        <button  type="submit" className="btn">
           Sign Up
         </button>
       </form>
